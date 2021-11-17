@@ -1,0 +1,43 @@
+.header{
+    display:flex;
+    justify-content: center;
+    
+}
+.content{
+    display:flex;
+    flex-direction: row-reverse;    
+}
+.centered{
+    display:flex;
+    justify-content: center;
+}
+.flex-container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: lightblue;
+    margin: 1rem;
+    text-align: center;
+    height: fit-content;
+    width:max-content;
+    align-self: center;
+    border-color: darkblue;
+    border-style: solid;
+    max-width:100%;
+}
+.locationhere{
+    font-weight: bold;
+}
+a:link {
+	color: blue;
+}
+ a:visited {
+	 color: purple;
+}
+ a:hover {
+	 color: cyan;
+}
+ a:active {
+	 color: #FFFD00;
+}
